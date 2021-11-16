@@ -5,31 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./js/slider.js">
-    <link rel="shortcut icon" href="./img/logo_volotea.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slider.js">
+    <link rel="shortcut icon" href="../img/logo_volotea.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3cbe551640.js" crossorigin="anonymous"></script>
     <title>Volotea Virtual</title>
 </head>
 
 <body>
     <div class="" id="header">
         <div>
-            <img src="./img/logo-letra-volotea.png" alt="logo-letra-volotea">
+            <img src="../img/logo-letra-volotea.png" alt="logo-letra-volotea">
         </div>
     </div>
     <div id="navbar">
         <ul class=" flex column-1">
-            <li><a href="./index.html#section-2"> <i class="flex fas fa-arrow-circle-down"></i></a></li>
-            <li><a class="active" href="./index.html">Inicio</a></li>
-            <li><a href="./html/escuela.html">Escuela</a></li>
-            <li><a href="./html/registarse.html">Resgistrarse</a></li>
-            <li><a href="./html/staff.html">Staff</a></li>
-            <li><a href="./html/zona-pilotos.html">Zona Pilotos</a></li>
-            <li><a href="./html/normas-terminos.html">Normas y Términos</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/escuela.html">Escuela</a></li>
+            <li><a href="../html/registarse.html">Resgistrarse</a></li>
+            <li><a href="../html/staff.html">Staff</a></li>
+            <li><a class="active" href="../html/zona-pilotos.html">Zona Pilotos</a></li>
+            <li><a href="../html/normas-terminos.html">Normas y Términos</a></li>
         </ul>
     </div>
 
@@ -38,11 +36,11 @@
         <div class="flex column-1 slideshow-container"> 
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="./img/3.jpg" style="width:100%">
+                <img src="../img/3.jpg" style="width:100%">
             </div>
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="./img/5.png" style="width:100%">
+                <img src="../img/5.png" style="width:100%">
             </div>
         </div>
         <br>
@@ -53,42 +51,9 @@
         </div>
     </div>
 
-    <div class="" id="section-2">
+    <div class="margen" id="section-2">
         <div class="column-1">
-            <h1>¿Que ofrecemos?</h1>
         </div>
-        <div class="column-5">
-            <i class="fas fa-globe"></i>
-            <p>Gran disponibilidad de HUBS y rutas</p>
-        </div>
-        <div class="column-5">
-            <i class="fas fa-users"></i>
-            <p>Profesionalidad</p>
-        </div>
-        <div class="column-5">
-            <i class="fas fa-angle-double-up"></i>
-            <p>Sistema de rangos</p>
-        </div>
-        <div class="column-5">
-            <i class="fas fa-plane"></i>
-            <p>Gran flota</p>
-        </div>
-        <div class="column-5">
-            <i class="fas fa-thumbtack"></i>
-            <p>Disponemos de sistema de trackeo</p>
-        </div>
-    </div>
-    <div class="" id="section-3">
-        <div class="column-2">
-            <h1>Sobre nosotros</h1>
-            <p>Volotea Virtual es un proyecto que nace para ofrecer la libertad que muchos buscan en este mundo de la aviación virtual. Vuela con quien quieras, donde quieras y como quieras. Aquí puedes desarrollar tu carrera como piloto virtual, haciendo una buena gestión y rentabilizando cada vuelo. La gestión económica es una de las base de nuestra aerolínea virtual.</p>
-            <p>¡Bienvenido a Volotea Virtual!</p>
-            <a href="./html/registarse.html" class="button">¡Regístrate!</a>
-        </div>
-        <div class="relleno-izquierda column-2">
-            <img src="./img/wp2838525.jpg" alt="cockpit_a320">
-        </div>
-        
     </div>
 
     <div class="" id="footer">
@@ -104,7 +69,7 @@
             <p>Volotea Virtual es la única aerolínea virtual que cuenta con la aprobación de Volotea, no estamos relaccionados con la aerolínea real, en caso de querer acceder a la web de Volotea pulse aquí</p>
         </div>
         <div class="flex column-3">
-            <img src="./img/logo_vam.png" alt="logos">
+            <img src="../img/logo_vam.png" alt="logos">
         </div>
         <div class="flex column-1">
             <p>© Todos los derechos reservados, Volotea 2021-2022</p>
@@ -157,9 +122,9 @@
         function language() {
             var idioma = document.getElementById('language').value
             if (idioma == 'ES') {
-                window.location.href = './index.html'
+                window.location.href = '../index.html'
             } else {
-                window.location.href = './eng/index.html'
+                window.location.href = '../eng/index.html'
             }
         }
     </script>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./js/slider.js">
-    <link rel="shortcut icon" href="./img/logo_volotea.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slider.js">
+    <link rel="shortcut icon" href="../img/logo_volotea.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -18,18 +18,18 @@
 <body>
     <div class="" id="header">
         <div>
-            <img src="./img/logo-letra-volotea.png" alt="logo-letra-volotea">
+            <img src="../img/logo-letra-volotea.png" alt="logo-letra-volotea">
         </div>
     </div>
     <div id="navbar">
         <ul class=" flex column-1">
-            <li><a href="./index.html#section-2"> <i class="flex fas fa-arrow-circle-down"></i></a></li>
-            <li><a class="active" href="./index.html">Inicio</a></li>
-            <li><a href="./html/escuela.html">Escuela</a></li>
-            <li><a href="./html/registarse.html">Resgistrarse</a></li>
-            <li><a href="./html/staff.html">Staff</a></li>
-            <li><a href="./html/zona-pilotos.html">Zona Pilotos</a></li>
-            <li><a href="./html/normas-terminos.html">Normas y Términos</a></li>
+            <li><a href="../eng/index.html#section-2"> <i class="flex fas fa-arrow-circle-down"></i></a></li>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="../html/escuela.html">Training</a></li>
+            <li><a href="../html/registarse.html">Sign Up</a></li>
+            <li><a href="../html/staff.html">Staff</a></li>
+            <li><a href="../html/zona-pilotos.html">Pilot Zone</a></li>
+            <li><a href="../html/normas-terminos.html">Rules & Terms</a></li>
         </ul>
     </div>
 
@@ -38,11 +38,11 @@
         <div class="flex column-1 slideshow-container"> 
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="./img/3.jpg" style="width:100%">
+                <img src="../img/3.jpg" style="width:100%">
             </div>
             <div class="mySlides fade">
                 <div class="numbertext"></div>
-                <img src="./img/5.png" style="width:100%">
+                <img src="../img/5.png" style="width:100%">
             </div>
         </div>
         <br>
@@ -55,7 +55,7 @@
 
     <div class="" id="section-2">
         <div class="column-1">
-            <h1>¿Que ofrecemos?</h1>
+            <h1>¿What do we offer?</h1>
         </div>
         <div class="column-5">
             <i class="fas fa-globe"></i>
@@ -83,20 +83,20 @@
             <h1>Sobre nosotros</h1>
             <p>Volotea Virtual es un proyecto que nace para ofrecer la libertad que muchos buscan en este mundo de la aviación virtual. Vuela con quien quieras, donde quieras y como quieras. Aquí puedes desarrollar tu carrera como piloto virtual, haciendo una buena gestión y rentabilizando cada vuelo. La gestión económica es una de las base de nuestra aerolínea virtual.</p>
             <p>¡Bienvenido a Volotea Virtual!</p>
-            <a href="./html/registarse.html" class="button">¡Regístrate!</a>
+            <a href="../eng/registarse.html" class="button">Sign Up!</a>
         </div>
         <div class="relleno-izquierda column-2">
-            <img src="./img/wp2838525.jpg" alt="cockpit_a320">
+            <img src="../img/wp2838525.jpg" alt="cockpit_a320">
         </div>
         
     </div>
 
     <div class="" id="footer">
         <div class="relleno-izquierda column-3">
-            <h3>Selecciona un Idioma:</h3>
+            <h3>Choose a language:</h3>
             <select name="language" id="language" onchange="language()">
-                <option value="ES" selected>Español</option>
-                <option value="EN">English</option>
+                <option value="EN" selected>English</option>
+                <option value="ES">Español</option>
             </select>
         </div>
         <div class="column-3">
@@ -104,7 +104,7 @@
             <p>Volotea Virtual es la única aerolínea virtual que cuenta con la aprobación de Volotea, no estamos relaccionados con la aerolínea real, en caso de querer acceder a la web de Volotea pulse aquí</p>
         </div>
         <div class="flex column-3">
-            <img src="./img/logo_vam.png" alt="logos">
+            <img src="../img/logo_vam.png" alt="logos">
         </div>
         <div class="flex column-1">
             <p>© Todos los derechos reservados, Volotea 2021-2022</p>
@@ -156,10 +156,10 @@
 
         function language() {
             var idioma = document.getElementById('language').value
-            if (idioma == 'ES') {
-                window.location.href = './index.html'
+            if (idioma == 'EN') {
+                window.location.href = '../eng/index.html'
             } else {
-                window.location.href = './eng/index.html'
+                window.location.href = '../index.html'
             }
         }
     </script>
